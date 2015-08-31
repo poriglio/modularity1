@@ -1,33 +1,108 @@
-table {
+.names{
 	border-collapse: collapse;
 	font-size: 14px;
 }
 
-tr{
+.names tr{
 	border-top: 1px solid gainsboro;
 }
 
-.firstrow{
+.names .firstrow{
 	border-top: 0;
 	padding: 8px;
 }
 
-.firstcolumn{
+.names .firstcolumn{
 	width: 45px;
 }
 
-td,th{
+.names td,th{
 	padding: 8px;
 	width: 150px;
 }
 
-td>div{
+.stats div{
+	text-align: center;
 	color: gainsboro;
-	font-size: 7;
+	font-size: 12px;
+	width: 65px;
+	padding-top: 0px;
+	padding-bottom: 10px;	
+	
 }
 
-div.number{
-	font-size: 25;
+td>.number{
+	font-size: 30px;
 	font-weight: bold;
 	color: black;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+.stats{
+	border-bottom: 1px solid gainsboro;
+	border-top: 1px solid gainsboro;
+}
+
+.barchart{
+	table-collapse: collapse;
+}
+
+.barchart th{
+	font-weight: bold;
+	text-align: right;
+	padding: 3px;
+	padding-right: 6px;
+	font-size: 14px;
+}
+
+.barchart div{
+	background: #47A3FF;
+	padding: 4px;
+	border-radius: 0px 3px 3px 0px;
+}
+
+.barchart td{
+	width: 400px;
+	color: #ffffff;
+	text-align: left;
+	text-indent: 2px;
+	width: 400px;
+	font-size: 11px;
+}
+
+.outerlightbox{
+	position: fixed;
+    bottom: 0;
+    right: 0;
+	height: 100%;
+	width: 100%;
+	background: gray;
+}
+
+.innerlightbox{
+	background: white;
+	border-radius: 15px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.lightbox>h3{
+
+}
+
+.lightboxbutton{
+	position: relative;
+	border-radius: 7px;
+	background: pink;
+	color: white;
+	transform: translate(-100%%,100%);
+}
+
+.lightboxbutton>a{
+	padding: 20px;
+	color: white;
+	text-decoration: none;
 }
