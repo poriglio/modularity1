@@ -1,1 +1,33 @@
-/* ADD YOUR STYLES HERE */
+table {
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+tr{
+	border-top: 1px solid gainsboro;
+}
+
+.firstrow{
+	border-top: 0;
+	padding: 8px;
+}
+
+.firstcolumn{
+	width: 45px;
+}
+
+td,th{
+	padding: 8px;
+	width: 150px;
+}
+
+td>div{
+	color: gainsboro;
+	font-size: 7;
+}
+
+div.number{
+	font-size: 25;
+	font-weight: bold;
+	color: black;
+}
