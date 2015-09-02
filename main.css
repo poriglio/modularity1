@@ -74,7 +74,7 @@ td>.number{
 	margin: 2px;
 }
 
-.outerlightbox{
+/*.outerlightbox{
 	position: fixed;
     bottom: 0;
     right: 0;
@@ -118,10 +118,9 @@ td>.number{
 }
 
 .lightboxtext{
-	line-height: 18px;
-}
+	line-height: 18px;*/
 
-.mediablock{
+.mediablock {
 float: left;
 margin-right: 8px;
 }
@@ -135,6 +134,7 @@ margin-right: 8px;
 	left: 55px;
 }
 
+
 .list p{
 	position:relative;
 	left: 40px;
@@ -145,3 +145,5 @@ margin-right: 8px;
 	left: 60px;
 	clear: left;
 }
+
+/*USELESS TEXT*/
